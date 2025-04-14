@@ -2,7 +2,7 @@
 FROM httpd:latest
 
 # Copy your website files into the Apache server directory
-COPY ./website/ /usr/local/apache2/htdocs/
+COPY . /usr/local/apache2/htdocs/
 
 # Expose port 80
 EXPOSE 80
